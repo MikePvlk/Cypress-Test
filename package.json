@@ -1,0 +1,14 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "dependencies": {
+    "cypress": "^8.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cypress run --browser chrome --config password=$CYPRESS_password --record --key $Cypress_Key"
+  },
+  "author": "Mike Pavlakis",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/MikePv/cypress-test#readme"
+}

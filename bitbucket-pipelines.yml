@@ -1,4 +1,4 @@
-image: node:10.15.3
+image: cypress/browsers:node14.17.0-chrome88-ff89
 
 pipelines:
   default:
@@ -7,4 +7,7 @@ pipelines:
         caches:
           - node
         script:
-          - npx cypress run
+          - npm ci
+          - npm run test
+        artifacts: 
+          - cypress/screenshots/**

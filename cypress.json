@@ -1,6 +1,7 @@
 {
-    "env": {
-        "username": "testaccountalliantie",
-        "password": ""
-    }
+  "env": {
+    "username": "testaccountalliantie",
+    "password": ""
+  },
+  "projectId": "sn6icm"
 }
