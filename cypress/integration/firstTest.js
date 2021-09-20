@@ -53,8 +53,6 @@ describe('First Test', () => {
     cy.wait(5000)
     cy.get('.item-enter-done').first().click()
     
-    cy.get('#mxui_widget_ListView_2').find('li').should('have.class', 'mx-listview-empty')
-    
+    cy.get('#mxui_widget_ListView_2').find('li').should('not.have.class', 'mx-listview-empty')
   })
-
 })
